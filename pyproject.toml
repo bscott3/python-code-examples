@@ -1,0 +1,19 @@
+[project]
+name = "python-code-examples"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Bryan Scott", email = "bryanbscott2000@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "pytest>=9.1.1",
+]
+
+[project.scripts]
+python-code-examples = "python_code_examples:main"
+
+[build-system]
+requires = ["uv_build>=0.12.19,<0.13.0"]
+build-backend = "uv_build"
